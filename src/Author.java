@@ -14,4 +14,12 @@ public class Author {
     public String getSurname() {
         return surname;
     }
+
+    @Override
+    public String toString() {
+        return "Author{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                '}';
+    }
 }
